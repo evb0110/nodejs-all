@@ -18,5 +18,6 @@ console.log(personObjectString);
 
 personNewString = fs.readFileSync('person.json');
 
+
 let personObjectNew = JSON.parse(personNewString);
 console.log(personObjectNew.pets.cat);

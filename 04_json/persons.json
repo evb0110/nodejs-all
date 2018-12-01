@@ -1,0 +1,12 @@
+{
+  "age": 25,
+  "pets": [
+    {
+      "cow": "Dolly"
+    },
+    {
+      "cat": "Molly"
+    }
+  ],
+  "name": "John"
+}
