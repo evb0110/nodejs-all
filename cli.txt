@@ -1,0 +1,7 @@
+$ node --inspect app.js add --title="buy food" 
+Включает дебаггер. Чтобы дойти до места debugger в коде, надо нажать 'c'.
+
+======
+
+$ node --inspect-brk app.js add --title="buy food" 
+Потом зайти в Хром, набрать chrome://inspect
