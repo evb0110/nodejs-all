@@ -1,0 +1,12 @@
+
+html,
+body {
+  text-align: center
+}
+
+.red {
+  color: red;
+}
+img {
+  max-width: 500px;
+}
