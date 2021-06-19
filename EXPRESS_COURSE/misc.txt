@@ -1,7 +1,0 @@
-Про вызов p6 из сервера
-
-Yes, although it's not technically "Express" it's just Node (though you'd do it in an Express server). 
-
-You want the Child Process module (https://nodejs.org/dist/latest-v11.x/docs/api/child_process.html). It has an .exec() method that can do anything the node user can do on the OS. You'd run that inside a route (whether a render() or a json()), wait for the results, and send it off. Let me know when you get there, but it shoyld be no problem.
-
-Rob
